@@ -131,7 +131,8 @@ font-size: .6em;
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .jill img{
-    width: 100%;
+    width: 70%;
+    margin-left: 20%;
     height: 300px;
   }
 }
