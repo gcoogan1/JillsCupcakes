@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Parisienne&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Just Because Cupcakes</title>
+</head>
+<body>
+    <div class=" navbar-fixed">
+      <nav>
+        <div class="nav-wrapper black">
+          <a href="#" class="brand-logo right logo">JB</a>
+          <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+            <i class="material-icons">menu</i>
+        </a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down navbar">
+            <li><a href="#about">About</a></li>
+            <li><a href="#treats">Treats</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <ul class="sidenav" id="mobile-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#treats">Treats</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#contact">Contact</a></li>
+    </ul>
+      <div class="title">
+          <h1>Just Because<br/><span>-cupcakes-</span></h1>
+          
+      </div>
+      <div class="about container" id="about">
+      <div class="row">
+          <div class="jill col m6 s12"><img src="./img//jill2.jpg"></div>
+          <div class="col m6 s12" id="about-content">
+            <div class="container top">
+              <h4>About Me</h4>
+              <h6>Meet Professional Baker Jill Smith</h6>
+              <div class="line"><hr></div>
+            </div>
+            <div class="container bottom">
+              <p>This is a paragraph about me. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Rerum dolores atque pariatur, necessitatibus possimus amet corrupti repellat. 
+                Fugiat sequi, fuga alias molestias dolorum sapiente, numquam ratione omnis ducimus quis sit! 
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, possimus nisi, molestias, maxime 
+                laudantium pariatur quo blanditiis voluptatibus deleniti quibusdam nostrum ipsam minima odit incidunt? 
+                Expedita, voluptatum. Eveniet, modi quisquam!</p>
+                <p>This is paragraph two. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Voluptate perspiciatis repudiandae consectetur sed? Maxime at exercitationem ipsam, 
+                  suscipit eius architecto vel provident sunt quidem porro. Magni facere nam est ratione?</p>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="img-middle">
+    </div>
+    <div class="container" id="treats">
+        <div class="row">
+          <div class="col m6 s12" id="treats-content">
+              <div class="container top">
+                  <h4>Treats</h4>
+                  <h6>Check out our delicious desserts!</h6>
+                  <div class="line"><hr></div>
+              </div>
+              <div class="container bottom">
+                    <p class="btn-padding">This is paragraph about our signature desserts. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                      Voluptate perspiciatis repudiandae consectetur sed? Maxime at exercitationem ipsam, 
+                      suscipit eius architecto vel provident sunt quidem porro. Magni facere nam est ratione?</p>
+                      <a href="">View Menu</a>
+                </div>
+          </div>
+          <div class="para col m6 s12">
+           <div class="grid">
+             <div class="one"></div>
+             <div class="two"></div>
+             <div class="three"></div>
+             <div class="four"></div>
+           </div>   
+          </div>
+        </div>
+    </div>
+    <div class="qoute">
+      <div class="qoute-text">
+        <h3>“First we eat, then we do everything else.” -M.F.K. Fisher</h3>
+      </div>
+    </div>
+    <div class="store container" id="events">
+    <div class="row">
+      <div class="jill col m6 s12"><img src="./img/home-page.jpg"></div>
+      <div class="col m6 s12" id="events-content">
+          <div class="container top">
+            <h4>Catering & Events</h4>
+            <h6>For the sweetest moments in life!</h6>
+            <div class="line"><hr></div>
+          </div>
+          <div class="container bottom">
+              <p>This is paragraph about events that you can book with us. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Voluptate perspiciatis repudiandae consectetur sed? Maxime at exercitationem ipsam, 
+                suscipit eius architecto vel provident sunt quidem porro. Magni facere nam est ratione?</p>
+          </div>
+      </div>
+  </div>
+</div>
+<footer class="page-footer #f5f5f5 grey lighten-4" id="contact">
+  <div class="container">
+    <div class="center">
+      <p>CONTACT US</p>
+      <div class="container">
+      <div class="center">
+          <p class="form-text">JB@MYSITE.COM / TEL: 123-456-7890 </p>
+          <p class="form-text">Send us a message</p>
+        <form class="input-field">
+            <input type="text" name="name" class="area" placeholder="First name"> <br>
+            <input type="text" name="email" class="area" placeholder="Email"> <br>
+            <textarea id="message" name="message" placeholder="Your Message" ></textarea> <br>
+            <a class="waves-effect waves-light btn #bcaaa4 brown lighten-3">button</a>
+          </form>     
+      </div>
+        
+
+</div>
+</div>
+
+  <div class="container center">
+      <h3 class="created">WEBSITE CREATED BY</h3>
+      <img class="name" src="./img//gen-logo.png"></img>
+      <h3 class="link">GENEVIEVE.APP</h3>
+  </div>
+
+      
+  </div>
+  
+</footer>
+      
+    
+
+      
+
+      <script src="script.js"></script>
+      <!--JavaScript at end of body for optimized loading-->
+      
+</body>
+</html>
