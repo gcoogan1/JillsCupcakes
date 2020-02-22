@@ -119,11 +119,15 @@ font-size: .6em;
   -moz-box-shadow: 0 15px 10px #777;
   box-shadow: 0 15px 10px #777;
 }
-@media (min-width: 481px) and (max-width: 600px) {
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
   .jill img{
-    width: 100%;
+    margin-left: 10%;
+    width: 90%;
     height: 600px;
   }
+  
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .jill img{
@@ -134,11 +138,16 @@ font-size: .6em;
 
 /*IMG-MIDDLE*/
 .img-middle{
-    height: 60vh;
+    height: 50vh;
     background-image: url('./img//img-middle.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .img-middle{
+    height: 40vh;
+  }
 }
 
 
@@ -193,7 +202,7 @@ font-size: .6em;
 
 /*QOUTE DISPLAY*/
 .qoute{
-  height: 60vh;
+  height: 50vh;
   background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.75)), url('./img/heart.jpeg');
   background-position: center;
   background-size: cover;
@@ -201,7 +210,11 @@ font-size: .6em;
   display: flex;
   align-items: center;
   justify-content: center;
-
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .qoute{
+    height: 40vh;
+  }
 }
 .qoute-text h3{
   font-size: 2.5em;
